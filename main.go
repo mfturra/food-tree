@@ -9,6 +9,14 @@ import (
 
 var db *sql.DB
 
+type Data struct {
+	ingredient_name        string
+	ingredient_quantity    int
+	quantity_type          string
+	nutrient_quantity      int
+	nutrient_quantity_type string
+}
+
 const (
 	host = "localhost"
 	port = 5432
