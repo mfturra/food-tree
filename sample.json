@@ -1,0 +1,15 @@
+[{
+    "ingredient_name": "Veal", 
+    "ingredient_quantity": 36.71, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Beef", 
+    "ingredient_quantity": 36.12, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+}]
