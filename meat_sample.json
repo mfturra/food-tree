@@ -1,0 +1,136 @@
+[{
+    "ingredient_name": "Veal", 
+    "ingredient_quantity": 36.71, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Beef", 
+    "ingredient_quantity": 36.12, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Lamb", 
+    "ingredient_quantity": 32.08, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Pork", 
+    "ingredient_quantity": 28.86, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Chicken", 
+    "ingredient_quantity": 28.74, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Tuna", 
+    "ingredient_quantity": 25.51, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Sardines", 
+    "ingredient_quantity": 24.62, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Cheese", 
+    "ingredient_quantity": 23.63, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Salmon", 
+    "ingredient_quantity": 22.10, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Crickets", 
+    "ingredient_quantity": 20.50, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Eggs", 
+    "ingredient_quantity": 12.58, 
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Peanut butter", 
+    "ingredient_quantity": 22.21,
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Almonds", 
+    "ingredient_quantity": 20.96,
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Oats", 
+    "ingredient_quantity": 16.89,
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Tofu", 
+    "ingredient_quantity": 9.04,
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Lentils", 
+    "ingredient_quantity": 9.02,
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+},
+
+{
+    "ingredient_name": "Black beans", 
+    "ingredient_quantity": 22.21,
+    "quantity_type": "grams",
+    "nutrient_quantity": 100,
+    "nutrient_quantity_type": "grams"
+}
+]
