@@ -1,119 +1,119 @@
 [{
-    "IngredientName": "Sesame seeds", 
-    "IngredientQuantity": 0.25, 
-    "QuantityType": "cup",
-    "NutrientQuantity": 351,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Sesame seeds", 
+    "ingredient_quantity": 0.25, 
+    "quantity_type": "cup",
+    "nutrient_quantity": 351,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Sardines (with bones)", 
-    "IngredientQuantity": 3.75, 
-    "QuantityType": "ounce-can",
-    "NutrientQuantity": 351,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Sardines (with bones)", 
+    "ingredient_quantity": 3.75, 
+    "quantity_type": "ounce-can",
+    "nutrient_quantity": 351,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Tofu", 
-    "IngredientQuantity": 3.50, 
-    "QuantityType": "ounces",
-    "NutrientQuantity": 350,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Tofu", 
+    "ingredient_quantity": 3.50, 
+    "quantity_type": "ounces",
+    "nutrient_quantity": 350,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Yogurt", 
-    "IngredientQuantity": 1, 
-    "QuantityType": "cup",
-    "NutrientQuantity": 296,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Yogurt", 
+    "ingredient_quantity": 1, 
+    "quantity_type": "cup",
+    "nutrient_quantity": 296,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Collard greens",
-    "IngredientQuantity": 1,
-    "QuantityType": "cup",
-    "NutrientQuantity": 268,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Collard greens",
+    "ingredient_quantity": 1,
+    "quantity_type": "cup",
+    "nutrient_quantity": 268,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Spinach", 
-    "IngredientQuantity": 1,
-    "QuantityType": "cup",
-    "NutrientQuantity": 245,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Spinach", 
+    "ingredient_quantity": 1,
+    "quantity_type": "cup",
+    "nutrient_quantity": 245,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Cheese", 
-    "IngredientQuantity": 1,
-    "QuantityType": "ounce",
-    "NutrientQuantity": 204,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Cheese", 
+    "ingredient_quantity": 1,
+    "quantity_type": "ounce",
+    "nutrient_quantity": 204,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Turnip greens", 
-    "IngredientQuantity": 1,
-    "QuantityType": "cup",
-    "NutrientQuantity": 197,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Turnip greens", 
+    "ingredient_quantity": 1,
+    "quantity_type": "cup",
+    "nutrient_quantity": 197,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Canned sockeye salmon (with bones)", 
-    "IngredientQuantity": 3,
-    "QuantityType": "ounces",
-    "NutrientQuantity": 188,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Canned sockeye salmon (with bones)", 
+    "ingredient_quantity": 3,
+    "quantity_type": "ounces",
+    "nutrient_quantity": 188,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Blackstrap molasses", 
-    "IngredientQuantity": 1,
-    "QuantityType": "tablespoon",
-    "NutrientQuantity": 180,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Blackstrap molasses", 
+    "ingredient_quantity": 1,
+    "quantity_type": "tablespoon",
+    "nutrient_quantity": 180,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Mustard greens", 
-    "IngredientQuantity": 1,
-    "QuantityType": "cup",
-    "NutrientQuantity": 165,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Mustard greens", 
+    "ingredient_quantity": 1,
+    "quantity_type": "cup",
+    "nutrient_quantity": 165,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Beet greens", 
-    "IngredientQuantity": 1,
-    "QuantityType": "cup",
-    "NutrientQuantity": 164,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Beet greens", 
+    "ingredient_quantity": 1,
+    "quantity_type": "cup",
+    "nutrient_quantity": 164,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Bok choy", 
-    "IngredientQuantity": 1,
-    "QuantityType": "cup",
-    "NutrientQuantity": 158,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Bok choy", 
+    "ingredient_quantity": 1,
+    "quantity_type": "cup",
+    "nutrient_quantity": 158,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Almonds, dry roasted", 
-    "IngredientQuantity": 2,
-    "QuantityType": "ounces",
-    "NutrientQuantity": 150,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Almonds, dry roasted", 
+    "ingredient_quantity": 2,
+    "quantity_type": "ounces",
+    "nutrient_quantity": 150,
+    "nutrient_quantity_type": "milligrams"
 },
 
 {
-    "IngredientName": "Cow's milk", 
-    "IngredientQuantity": 8,
-    "QuantityType": "ounces",
-    "NutrientQuantity": 276,
-    "NutrientQuantityType": "milligrams"
+    "ingredient_name": "Cow's milk", 
+    "ingredient_quantity": 8,
+    "quantity_type": "ounces",
+    "nutrient_quantity": 276,
+    "nutrient_quantity_type": "milligrams"
 }]
