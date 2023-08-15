@@ -15,11 +15,11 @@ import (
 var db *sql.DB
 
 type Data struct {
-	IngredientName       string  //`json:"ingredient_name"`
-	IngredientQuantity   float64 //`json:"ingredient_quantity"`
-	QuantityType         string  //`json:"quantity_type"`
-	NutrientQuantity     int     //`json:"nutrient_quantity"`
-	NutrientQuantityType string  //`json:"nutrient_quantity_type"`
+	IngredientName       string  `json:"ingredient_name"`
+	IngredientQuantity   float64 `json:"ingredient_quantity"`
+	QuantityType         string  `json:"quantity_type"`
+	NutrientQuantity     int     `json:"nutrient_quantity"`
+	NutrientQuantityType string  `json:"nutrient_quantity_type"`
 }
 
 const (
@@ -79,7 +79,7 @@ func main() {
 		log.Fatal("Error reading file:", err)
 		return
 	}
-	fmt.Println(string(fileContent))
+	// fmt.Println(string(fileContent))
 
 	// Unmarshall data into 'payload'
 	var payload []Data
@@ -88,44 +88,34 @@ func main() {
 		log.Fatal("Error during Unmarshall():", err)
 	}
 
-	// Print unmarshalled data
 	for _, data := range payload {
-		log.Printf("Ingredient: %s\n", data.IngredientName)
-		log.Printf("Ingredient Quantity: %f\n", data.IngredientQuantity)
-		log.Printf("Quantity Type: %s\n", data.QuantityType)
-		log.Printf("Nutrient Quantity: %d\n", data.NutrientQuantity)
-		log.Printf("Nutrient Quantity Type: %s\n", data.NutrientQuantityType)
+		insertQuery := `
+				INSERT INTO food_details
+				(ingredient_name, ingredient_quantity, quantity_type, nutrient_quantity, nutrient_quantity_type)
+				VALUES ($1, $2, $3, $4, $5)`
+
+		_, err := db.Exec(
+			insertQuery,
+			data.IngredientName,
+			data.IngredientQuantity,
+			data.QuantityType,
+			data.NutrientQuantity,
+			data.NutrientQuantityType,
+		)
+		if err != nil {
+			log.Printf("Error inserting data: %v\n", err)
+			return
+		}
 	}
-	// Read opened jsonFile as a byte array
-	// byteValue, _ := io.ReadAll(jsonFile)
 
-	// Initialize Data Array (Second attempt)
-
-	// jsonData := `
-	// 		[{
-	// 			"ingredient_name": "Sesame seeds",
-	// 			"ingredient_quantity": 0.25,
-	// 			"quantity_type": "cup",
-	// 			"nutrient_quantity": 351,
-	// 			"nutrient_quantity_type": "milligrams"
-	// 		},
-
-	// 		{
-	// 			"ingredient_name": "Sardines (with bones)",
-	// 			"ingredient_quantity": 3.75,
-	// 			"quantity_type": "ounce-can",
-	// 			"nutrient_quantity": 351,
-	// 			"nutrient_quantity_type": "milligrams"
-	// 		}]`
-
-	// var data []map[string]interface{}
-	// ingestion_err := json.Unmarshal([]byte(jsonData), &data)
-	// if ingestion_err != nil {
-	// 	fmt.Printf("Could not unmarshall json: %s\n", ingestion_err)
-	// 	return
+	// Print unmarshalled data
+	// for _, data := range payload {
+	// 	log.Printf("Ingredient: %s\n", data.IngredientName)
+	// 	log.Printf("Ingredient Quantity: %f\n", data.IngredientQuantity)
+	// 	log.Printf("Quantity Type: %s\n", data.QuantityType)
+	// 	log.Printf("Nutrient Quantity: %d\n", data.NutrientQuantity)
+	// 	log.Printf("Nutrient Quantity Type: %s\n", data.NutrientQuantityType)
 	// }
-
-	// fmt.Printf("Json mapped: %v\n", data)
 
 	// Dynamic Insertion of Data
 	manual_data_insertion := false
