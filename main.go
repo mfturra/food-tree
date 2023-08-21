@@ -62,9 +62,10 @@ func main() {
 
 	// Ingestion of JSON Extracts
 	file_location := "./milk_and_dairy_sample.json"
-	// file_location := "./sample.json"
-	// file_location := "./meat_sample.json"
-	if _, err := os.Stat(file_location); err == nil {
+	json_ingestion := false
+
+	// if _, err := os.Stat(file_location); err == nil
+	if json_ingestion {
 		jsonFile, err := os.Open(file_location)
 		if err != nil {
 			log.Fatal("Error when opening file:", err)
